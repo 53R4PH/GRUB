@@ -1,0 +1,111 @@
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+ .content-container{
+    padding: 15vh 5vh 15vh 5vh;
+    color: black;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.dquote{
+    background-color: rgba(245, 245, 245, 0.863);
+    padding: 16px;
+    resize: both;
+    box-sizing: border-box;
+}
+#info-head{
+    text-align: center;
+    margin: 5vw 0;
+    padding-top: 12px;
+    background: local, rgba(170, 170, 170, 0.123) ;
+}
+#info-head hr{
+    width: 120px;
+}
+/*home page accordion  for content review styling */
+.tag{
+    border-bottom: 50px solid #444;
+    margin: auto;
+    color: rgb(255, 0, 0);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+}
+.tag span{
+    margin: 2vh 0;
+}
+
+.accordion{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    text-align: justify;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.active, .accordion :hover{
+    background-color: #ccc;
+}
+
+.accordion:after{
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after{
+    content: "\2212";
+}
+.text{
+    padding: 0 18px;
+    background-color: rgba(236, 236, 236, 0.192);
+    max-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* about us styling */
+
+.about{
+    margin: 6vh auto;
+    text-align: center;
+}
+.about hr{
+    width: 250px;
+}
+.about-txt{
+    background-color: rgba(238, 238, 238, 0.219);
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+/* footer styling */
+
+.white_space footer{
+    padding: 4vh 0 ;
+    text-align: center;
+    width: 90%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+.white_space footer hr{
+    width: 250px;
+}
+.white_space footer a{
+    color: teal;
+}

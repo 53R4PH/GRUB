@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                scroll-behavior: smooth;
+            }
+            .white_space{
+                width: 30%;
+                background-color: #ccc;
+                padding: 0 2px;
+                height: 100%;
+                position: fixed;
+                top: 0;
+                left: 0;
+                overflow-x: hidden;
+                
+            }
+            .nav-bot{
+                background-color: whitesmoke;
+                padding: 10px 0 10px 0 ;
+                text-align: center;
+            }
+            .nav-bot button{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                border: none;
+                margin: 4px;
+                font-size: 14px;
+                box-shadow:  0.6px 0.6px 2px 0.2px black;
+            }
+            .nav-bot button a{
+                color: rgba(0, 128, 128, 0.863);
+            }
+            section{
+                padding: 3px 0 0 0;
+                box-sizing: border-box;
+            }
+            section header{
+                font-size: larger;
+            }
+            #contents{
+                text-align: left;
+                font-family:  Georgia, Times, 'Times New Roman', serif;
+                font-size: 16px;
+                padding: 0 0 3px 0;
+            }
+            #contents .upload{
+                text-align: center;
+            }
+            .upload button{
+                border: none;
+                box-shadow: 0.2px 1px 0.3px 0.2px rgb(0, 0, 0);
+                padding: 3px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+            }
+
+            /* styling black face */
+
+            .black_face{
+                width: 65%;
+                position:relative;
+                float: right;
+                box-sizing: border-box;
+                background-color: rgba(204, 204, 204, 0);
+                z-index: 1;
+            }
+
+            .black_face nav header{
+                padding: 2px;
+                resize: both;
+                background-color: black;
+                box-shadow: 0.4px 0.4px 1px 0.4px gainsboro;
+                width: 300px;
+                display: inline-flex;
+                border-top-right-radius: 900px;
+                
+                border-bottom-right-radius:900px ;
+                color:thistle;
+                font-size: 19px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight: bold;
+            }
+            .black_face .top_nav{
+                background-color: cadetblue;
+                margin: auto;
+            }
+            .black_face header span{
+                margin: 2.8vh 8px;
+            }
+            /* tablet mobile view */
+            @media screen and (max-width:600px) {
+                .white_space{
+                    display: none;
+                }
+                .black_face{
+                    width: 100%;
+                    background-color: rgba(240, 255, 255, 0.925);
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+               .black_face nav header{
+                background-color: rgb(15, 15, 15);
+                border-radius: none;
+               
+                }
+                .black_face .top_nav{
+                background-color: cadetblue;
+                 overflow: hidden;
+                top: 0;
+                position: fixed;
+                width: 100%;
+                }
+                .content-container{
+                    padding: 15vh 1.5vh 15vh 1.5vh;
+                    color: black;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    text-align: justify;
+                }
+            }
+
+        </style>
+  </head>
+  <body>
+
+    <!-- Open Weblog Registration Form \\
+
+    <div  class="objects">
+        <div>
+            <div style=" text-align: center;">
+                <img src="images/admin.gif" alt=""  style=" border-radius: 900px;">
+                <p>
+                    Hello and Welcome !
+                </p>
+            </div>
+        
+
+            <form action="" method="get">
+                <label for="Usr_name">Usr_name</label>
+                <input type="text" placeholder="Usr_name">
+
+                <pre></pre>
+                <label for="Country">Country</label>
+                <input type="text" placeholder="Country">
+
+                <pre></pre>
+                <label for="Usr_password">Password</label>
+                <input type="password" placeholder="password"  id="">
+            </form>
+
+        </div>
+    </div>
+
+        // close Weblog Registration form -->
+
+
+        <!-- main body page-->
+
+        <!--white page utility board-->
+        <div class="white_space" style="width: 30;">
+
+            <header style="margin: 0; background-color: black;color: aliceblue;">
+                <div style=" width: 100%; text-align: center;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">
+                    <img src="images/bulb.png" alt="" width="50px"><h3>Liberprimus</h3>
+                    <p><i>[ Bringing public access to public domains ]</i></p>
+                </div>
+
+                <div class="nav-bot">
+                    <button type="button"><a href="" id="home" ><i class="fas fa-home"  aria-hidden="true"></i> Home</a></button>
+                    <button type="button"><a href="" id="news" ><i class="fas fa-hacker-news" aria-hidden="true"></i> News</a></button>
+                    <button type="button"><a href="" id="resource" ><i class="fas fa-cloud" aria-hidden="true"></i> Resource</a></button>
+                    <button type="button"><a href="" id="cafeteria"  ><i class="fas fa-coffee" aria-hidden="true"></i>  Cafeteria</a></button>
+                    <button type="button"><a href="" id="adverts"  ><i class="fas fa-shopping-cart" aria-hidden="true"></i> Shop</a></button>
+                    <button type="button"><a href=""><i class="fab fa-hackerrank    "></i> Cloud</a></button>
+                </div>
+            </header>
+
+            <section>
+                <header style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">User_Profile</header>
+                <div class="prof">
+                    <img src="images/admin.gif" alt="" >
+                    <div style="display: block;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;">
+                        <p aria-placeholder="Usr_Name">Name:</p>
+                        <p aria-placeholder="Usr_Country">Country:</p>
+                        <p aria-placeholder="Usr_Rank">Verified: </p>
+                    </div>
+                </div>
+
+                <div id="contents">
+                    <button type="disabled" style="border-radius: 900px;background-color: rgb(0, 65, 9);height: 5px;width: 15px;border-inline: 1px solid black;"></button>
+                    <p>Note: All contents uploaded should be of valid information else you would be banned from using this platform.</p>
+                    <hr >
+                    <p>Read the Terms and conditions for more informmation on how to use this platform . <a href="#">#Rules</a></p>
+                    <div class="upload"><i class="fa fa-upload" aria-hidden="true"></i> <button type="button">Upload Content</button></div>
+                    
+                </div>
+            </section>
+
+            <footer id="whitefoot">
+                <hr />&copy;<a href=""> Liberprimus.org</a> 2020/2021
+            </footer>
+        </div>
+
+        <!-- end white page utility board-->
+
+        <!--Balck Background Main Page-->
+
+
+
+
+
+        <div class="black_face">
+            <nav class="top_nav">
+                <header><img src="images/bulb.png" width="60px" alt=""><span>LiberPrimus</span>
+                    <span><i class="fa fa-sign-in" aria-hidden="true" title="sign-in"></i></span>
+                    <span>sign</span>
+                </header>
+            </nav> 
+            <!--body main content  in content container-->
+
+            <div class="content-container">
+                <div class="dquote">
+                    <p>
+                       Unjust laws exist;
+                        shall we be content to obey them,
+                        or shall we endeavor to amend them,
+                        and obey them until we have succeeded,
+                        or shall we transgress them at once?
+                    </p>
+                    <i>Henry David Thoreau</i>
+                </div>
+                <div id="info-head">
+                    <h2 class="display-4 text-center py-8 my-4" >Web Content Review <hr /></h2>
+                    <p><i>Open contents to know what you can find on each platform</i></p>
+                    <img src="slide/bodyimg.png" width="100%" height="150px" alt="">
+                </div>
+                
+
+                <div>
+                    <div class="tag"><span>CONTENTS</span> </div>
+                    <!--  content review in accordion  -->
+                    <button class="accordion"><b><i>Home</i> </b> </button>
+                    <div class="text">
+                        <p>
+                            <strong>/HOME:</strong> This is the page in which you are.
+                            This page contains basically a review of what you can find on other pages
+                            or platform on this website as well as the <b>About us</b> at the bottom
+                            of the home page, to your right at full screen > 600px contains all nav links,
+                            user profile details and a small note for users who would like to interract with others .  
+                        </p>
+                    </div>
+
+                    <button class="accordion"><b><i>News</i> </b> </button>
+                    <div class="text">
+                        <p>
+                            <strong>/NEWS:</strong>
+                            This page  simply provides users with information based on what trends
+                            world wide in cyber space. Providing you with the latest, current and 
+                            most indepth content, we open a window to to outside world.
+                        </p>
+                    </div>
+
+                    <button class="accordion"><b><i> Resource</i></b> </button>
+                    <div class="text">
+                        <p>
+                            <strong>/RESOURCE:</strong>
+                            This page provides you with available resource which might include:-
+                            videos, books, softwares (cracked and free), previous lessons from users 
+                            who have had experience in various field before you e.t.c.
+                        </p>
+                    </div>
+
+                    <button class="accordion"><b><i>Cafeteria</i></b></button>
+                    <div class="text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptate porro delectus recusandae dolores vitae odit pariatur commodi!
+                             Unde nam, ut, nobis aut,
+                             maxime ullam perspiciatis placeat exercitationem voluptates error corrupti?</p>
+                    </div>
+
+                    <button class="accordion"><b><i>Shop</i></b></button>
+                    <div class="text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptate porro delectus recusandae dolores vitae odit pariatur commodi!
+                             Unde nam, ut, nobis aut,
+                             maxime ullam perspiciatis placeat exercitationem voluptates error corrupti?</p>
+                    </div>
+
+                    <button class="accordion"><b> <i> Cloud</i></b></button>
+                    <div class="text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptate porro delectus recusandae dolores vitae odit pariatur commodi!
+                             Unde nam, ut, nobis aut,
+                             maxime ullam perspiciatis placeat exercitationem voluptates error corrupti?</p>
+                    </div>
+                </div>
+
+                <div class="about">
+                    <h2>ABOUT LIBERPRIMUS  <hr /></h2>
+                    <div class="about-txt">
+                        <img src="slide/aad.png" width="100%" height="150px" alt="" srcset="">
+                        <h2>LIBERPRIMUS</h2>
+                        <p>[ Bringing public access to public domains ]</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--All contents are to be in content container -->
+        </div>
+
+
+        <!--Black Background End Main Page-->
+        
+
+      
+    <!-- Optional JavaScript -->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (let i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function(){
+                this.classList.toggle("active");
+                var text = this.nextElementSibling;
+                if (text.style.maxHeight) {
+                    text.style.maxHeight=null;                    
+                } else {
+                    text.style.maxHeight=text.scrollHeight + "px";                    
+                }
+            });
+            
+        }
+    </script>
+
+  </body>
+</html>
